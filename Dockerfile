@@ -10,6 +10,7 @@ RUN apt-get update -y && \
       libdbus-1-3 \
       libgconf-2-4 \
       libgtk-3-0 \
+      libappindicator3-1 \
       libnspr4 \
       libnss3 \
       libx11-xcb1 \
