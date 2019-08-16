@@ -1,10 +1,9 @@
-FROM debian:stable-slim
+FROM openjdk:8
 
 # Install basic tools/utilities and google Chrome unstable (which has cross platform support for headless mode). Combining theem together so that apt cache cleanup would need to be done just once.
 RUN apt-get update -y && \
     apt-get install ca-certificates \
       software-properties-common \
-      default-jre \
       gconf-service \
       libasound2 \
       libatk1.0-0 \
