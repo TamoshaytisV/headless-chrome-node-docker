@@ -23,6 +23,7 @@ RUN apt-get update -y && \
       libappindicator1 \
       xdg-utils \
       lsb-release \
+      lsof \
       wget \
       curl \
       maven \
