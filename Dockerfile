@@ -8,12 +8,15 @@ RUN apt-get update -y && \
       libatk1.0-0 \
       libatk1.0-0 \
       libdbus-1-3 \
+      libdrm2 \
+      libgbm1 \
       libgconf-2-4 \
       libgtk-3-0 \
       libappindicator3-1 \
       libnspr4 \
       libnss3 \
       libx11-xcb1 \
+      libxcb-dri3-0 \
       libxss1 \
       libxtst6 \
       fonts-liberation \
